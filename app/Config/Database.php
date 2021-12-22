@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'hostname' => '46.17.175.189',
+        'username' => 'u561524330_repl',
+        'password' => 'u561524330_Repl',
+        'database' => 'u561524330_repl',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

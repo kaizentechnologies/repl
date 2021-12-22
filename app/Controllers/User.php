@@ -23,7 +23,7 @@ class User extends BaseController
 
     public function __construct()
     {
-        helper(['form', 'common', 'cookie']);
+        helper(['form', 'user', 'cookie']);
 
         // librarys & all other imports
         $this->common_model = new User_Model();
@@ -64,17 +64,17 @@ class User extends BaseController
     public function loadViews($url, $data = [])
     {
         $uri = service('uri');
-        $data['projectName'] = getDirectValue('general_settings', 'value', 'name', 'siteName'); // get Project Name
-        $underMaintenance = getDirectValue('general_settings', 'value', 'name', 'underMaintenance'); // get underMaintenance status
+        $data['projectName'] = getDirectValue('system_settings', 'value', 'name', 'siteName'); // get Project Name
+        $underMaintenance = getDirectValue('system_settings', 'value', 'name', 'underMaintenance'); // get underMaintenance status
 
         if ($underMaintenance == 0) {
 
             // $data['left_sidebar'] = $this->loadSidebarFields();
             $segments = $uri->getSegments();
-            $data['url'] = $segments[1];
-            $data['username'] = 'Shree vyas';
-            $data['notice_count'] = 2;
-            $data['title'] = $data['projectName'] . ' - ' . ucfirst($segments[1] == '' ? 'login' : $segments[1]);
+            $data['url'] =  ucfirst( count($segments) == 0 ? 'Homepage' : $segments[1]);
+            // $data['username'] = 'Shree vyas';
+            // $data['notice_count'] = 2;
+            $data['title'] = $data['projectName'] . ' - '.$data['url'];
             $url = $this->adminFolder . $url;
 
             // admin_logs('pageAccess', '1', $data['url']); // Admin Activities Logs.

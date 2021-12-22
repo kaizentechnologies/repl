@@ -63,6 +63,7 @@ if (! defined('VIEWPATH'))
 
     define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 }
+
 /*
  *---------------------------------------------------------------
  * LAUNCH THE APPLICATION

@@ -40,214 +40,24 @@
 
     <!-- Content -->
     <div class="page-content">
-        <!-- Slider -->
-        <div class="main-slider style-two default-banner">
-            <div class="tp-banner-container">
-                <div class="tp-banner" >
-                    <div id="dz_rev_slider_4_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="news-gallery36" data-source="gallery" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
-                        <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
-                        <div id="dz_rev_slider_4" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
-                            <ul>
-                                <!-- SLIDE  -->
-                                <li data-index="rs-100" data-transition="parallaxvertical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slide1.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="WELCOME OUR CLEANING" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="">
-                                    <!-- MAIN IMAGE -->
-                                    <img src="<?= base_url('public/assets/user/images/main-slider/slide1.jpg') ?>"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                    <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption Newspaper-Title   tp-resizeme" 
-										id="slide-100-layer-1" 
-										data-x="['left','left','left','left']" 
-										data-hoffset="['50','50','50','30']" 
-										data-y="['top','top','top','top']" 
-										data-voffset="['220','220','220','70']" 
-										data-fontsize="['40','40','40','20']"
-										data-lineheight="['45','45','45','35']"
-										data-width="['1000','1000','1000','420']"
-										data-height="none"
-										data-whitespace="normal"
-							 
-										data-type="text" 
-										data-responsive_offset="on" 
-
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[10,10,10,10]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 6; white-space: normal; font-weight:700; line-height:40px; font-family: 'Nunito', sans-serif; color:rgb(39, 39, 39);">WE ARE CLEANING MANAGER  <br/> ALWAYS AT YOUR SERVICE.</div>
-                                    <!-- LAYER NR. 3 -->
-                                    <div class="tp-caption Newspaper-Title   tp-resizeme" 
-										id="slide-100-layer-2" 
-										data-x="['left','left','left','left']" 
-										data-hoffset="['50','50','50','30']" 
-										data-y="['top','top','top','top']" 
-										data-voffset="['320','320','320','145']" 
-										data-fontsize="['16','15','14','15']"
-										data-lineheight="['22','22','22','22']"
-										data-width="['700','600','600','420']"
-										data-height="none"
-										data-whitespace="normal"
-							 
-										data-type="text" 
-										data-responsive_offset="on" 
-
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[10,10,10,10]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 6; white-space: normal; line-height:80px; color:rgb(39, 39, 39); font-family: 'Lato', sans-serif">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                                    <!-- LAYER NR. 4 -->
-                                    <div class="tp-caption" 
-										id="slide-100-layer-3" 
-										data-x="['left','left','left','left']" data-hoffset="['53','53','53','30']" 
-										data-y="['top','top','top','top']" data-voffset="['410','410','410','250']" 
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-responsive_offset="on" 
-										data-responsive="off"
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[0,0,0,0]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 8; white-space: nowrap; background-color:rgba(0, 0, 0, 0) !important;"> <a href="#" class="site-button-secondry">Read More </a> </div>
-                                    <div class="tp-caption" 
-										id="slide-100-layer-4" 
-										data-x="['left','left','left','left']" data-hoffset="['200','200','190','180']" 
-										data-y="['top','top','top','top']" data-voffset="['410','410','410','250']" 
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-responsive_offset="on" 
-										data-responsive="off"
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[0,0,0,0]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 8; white-space: nowrap; background-color:rgba(0, 0, 0, 0) !important;"> <a href="#" class="site-button">Our Solutions</a> </div>
-                                </li>
-								
-                                <!-- SLIDE  -->	
-								
-								<li data-index="rs-200" data-transition="parallaxvertical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/main-slider/slide2.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="WELCOME OUR CLEANING" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="">
-                                    <!-- MAIN IMAGE -->
-                                    <img src="<?= base_url('public/assets/user/images/main-slider/slide2.jpg') ?>"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                                    <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption Newspaper-Title   tp-resizeme" 
-										id="slide-200-layer-1" 
-										data-x="['left','left','left','left']" 
-										data-hoffset="['50','50','50','30']" 
-										data-y="['top','top','top','top']" 
-										data-voffset="['220','220','220','70']" 
-										data-fontsize="['40','40','40','20']"
-										data-lineheight="['45','45','45','35']"
-										data-width="['1000','1000','1000','420']"
-										data-height="none"
-										data-whitespace="normal"
-							 
-										data-type="text" 
-										data-responsive_offset="on" 
-
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[10,10,10,10]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 6; white-space: normal; font-weight:bold; line-height:40px; font-family: 'Montserrat', sans-serif; color:rgb(39, 39, 39);">WE ARE CLEANING MANAGER  <br/> ALWAYS AT YOUR SERVICE.</div>
-                                    <!-- LAYER NR. 3 -->
-                                    <div class="tp-caption Newspaper-Title   tp-resizeme" 
-										id="slide-200-layer-2" 
-										data-x="['left','left','left','left']" 
-										data-hoffset="['50','50','50','30']" 
-										data-y="['top','top','top','top']" 
-										data-voffset="['320','320','320','145']" 
-										data-fontsize="['16','15','14','15']"
-										data-lineheight="['22','22','22','22']"
-										data-width="['700','600','600','420']"
-										data-height="none"
-										data-whitespace="normal"
-							 
-										data-type="text" 
-										data-responsive_offset="on" 
-
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[10,10,10,10]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 6; white-space: normal; line-height:80px; color:rgb(39, 39, 39); font-family: 'Lato', sans-serif">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                                    <!-- LAYER NR. 4 -->
-                                    <div class="tp-caption" 
-										id="slide-200-layer-3" 
-										data-x="['left','left','left','left']" data-hoffset="['53','53','53','30']" 
-										data-y="['top','top','top','top']" data-voffset="['410','410','410','250']" 
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-responsive_offset="on" 
-										data-responsive="off"
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[0,0,0,0]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 8; white-space: nowrap; background-color:rgba(0, 0, 0, 0) !important;"> <a href="#" class="site-button-secondry">Read More </a> </div>
-                                    <div class="tp-caption" 
-										id="slide-200-layer-4" 
-										data-x="['left','left','left','left']" data-hoffset="['200','200','190','180']" 
-										data-y="['top','top','top','top']" data-voffset="['410','410','410','250']" 
-										data-width="none"
-										data-height="none"
-										data-whitespace="nowrap"
-										data-responsive_offset="on" 
-										data-responsive="off"
-										data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
-										data-textAlign="['left','left','left','left']"
-										data-paddingtop="[0,0,0,0]"
-										data-paddingright="[0,0,0,0]"
-										data-paddingbottom="[0,0,0,0]"
-										data-paddingleft="[0,0,0,0]"
-
-										style="z-index: 8; white-space: nowrap; background-color:rgba(0, 0, 0, 0) !important;"> <a href="#" class="site-button">Our Solutions</a> </div>
-                                </li>
-                                <!-- SLIDE  -->	
-                                
-                            </ul>
-                            <div class="tp-bannertimer tp-bottom bg-primary" style="height: 5px; "></div>
-                        </div>
-                    </div>
-                    <!-- END REVOLUTION SLIDER -->
-                </div>
-            </div>
-        </div>
-        <!-- Slider END -->
         <!-- Our Awesome Services -->
 		<div class="section-full bg-white services-style-1 content-inner-2">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col-md-12 text-center d-md-none d-lg-block">
-						<div class="worker"> <img src="<?= base_url('public/assets/user/images/pic1.png') ?>" alt=""/> </div>
+						<div class="worker"> <img src="<?= base_url('public/assets/user/images/homepage1.jpg') ?>" alt=""/> </div>
 					</div>
 					<div class="col-lg-7 col-md-12">
-						<h2 class="font-35 m-t10 m-b0">We Provide Best Help for Your Home</h2>
-						<h3 class="m-t10">Professional Cleaning Services for Home and Office</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic..</p>
+						<h2 class="font-35 m-t10 m-b0">Radikale Engineering Pvt Ltd</h2>
+						<h3 class="m-t10">We are dedicated to operate on core technical excellence</h3>
+						<p>An ISO-9001 and 14001 company, Radikale Engineering Private Limited (formerly known as Radical Engineering) is a professional engineering firm
+						which deals in providing smart solutions in the fields of Environmental Engineering and Building Services. We deliver integrated Engineering, 
+						Procurement and Construction (EPC) services for construction and infrastructure sector projects. Our portfolio of business encompasses water, 
+						waste water, solid waste, MEP and a range of infrastructure projects. </p>
+						<p>We provide a blend of global reach, local knowledge, innovation and technical excellence in delivering customized and creative solutions 
+						that meet the needs of clients’ projects. Meeting our clients’ standards and quality expectation is our top priority and we believe in a highly 
+						communicative life-cycle for each project. Our commitment to safety is ingrained in our culture and at the forefront of every project.</p>
+						<p>We are dedicated to deliver projects that create long-term development and economic growth for our country.</p>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
 								<div class="icon-bx-wraper left">
@@ -297,7 +107,7 @@
 				<div class="section-head  text-center text-white">
                     <h2 class="h2">Why Choose Us</h2>
                     <div class="separator text-primary style-icon border-white"><img src="images/separator-white.png" alt=""/></div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p>
+                    <p>"Design is intelligence made visible." -- Alina Wheeler, author</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-2 col-sm-4 col-md-4">
@@ -355,7 +165,7 @@
 
 
         <!-- Our Projects  -->
-        <div class="section-full bg-img-fix content-inner overlay-black-dark our-projects-galery" style="background-image:url(<?= base_url('public/assets/user/images/background/bg3.jpg') ?>);">
+        <div class="section-full bg-img-fix content-inner overlay-black-dark our-projects-galery" style="background-image:url(<?= base_url('public/assets/user/images/homepage3.jpg') ?>);">
             <div class="container">
                 <div class="section-head  text-center text-white">
                     <h2  class="h2">Our <span class="text-primary">Project</span></h2>
@@ -441,83 +251,9 @@
             </div>
         </div>
         <!-- Our Projects END -->
-		<!-- Latest blog -->
-        <div class="section-full content-inner">
-            <div class="container">
-                <div class="section-head text-center">
-                    <h2 class="h2">Latest Blog <span class="text-primary">Post</span></h2>
-                    <div class="separator text-primary style-icon border-dark"><img src="<?= base_url('public/assets/user/images/sefretor.png') ?>" alt=""/></div>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.</p>
-                </div>
-                <div class="section-content ">
-                    <div class="row equal-wraper">
-						<div class="col-lg-4 col-md-4 col-sm-6 equal-col">
-                            <div class="blog-post latest-blog-1 date-style-4 skew-date">
-                                <div class="post-media img-effect zoom-slow"> <a href="javascript:;"><img src="<?= base_url('public/assets/user/images/blog/latest-blog/pic1.jpg') ?>" alt=""></a> </div>
-                                <div class="post-info p-a20 bg-white">
-                                    <div class="post-title ">
-                                        <h4 class="post-title"><a href="javascript:;">Cleaning Team Is Ready To Work</a></h4>
-                                    </div>
-                                    <div class="post-meta ">
-                                        <ul>
-                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Aug</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i>By <a href="javascript:;">demongo</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:;">0 comment</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-text">
-                                        <p>Lorem Ipsum by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a <a href="#" title="Read More" rel="bookmark" class=" site-button-link text-primary"> Read More</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 equal-col">
-                            <div class="blog-post latest-blog-1 date-style-4 skew-date">
-                                <div class="post-media img-effect zoom-slow"> <a href="javascript:;"><img src="<?= base_url('public/assets/user/images/blog/latest-blog/pic2.jpg') ?>" alt=""></a> </div>
-                                <div class="post-info p-a20 bg-white">
-                                    <div class="post-title ">
-                                        <h4 class="post-title"><a href="javascript:;">5 Tips Of Hiring Office Cleaners</a></h4>
-                                    </div>
-                                    <div class="post-meta ">
-                                        <ul>
-                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Aug</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i>By <a href="javascript:;">demongo</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:;">0 comment</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-text">
-                                        <p>Lorem Ipsum by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a <a href="#" title="Read More" rel="bookmark" class=" site-button-link text-primary"> Read More</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12 equal-col">
-                            <div class="blog-post latest-blog-1 date-style-4 skew-date">
-                                <div class="post-media img-effect zoom-slow"> <a href="javascript:;"><img src="<?= base_url('public/assets/user/images/blog/latest-blog/pic3.jpg') ?>" alt=""></a> </div>
-                                <div class="post-info p-a20 bg-white">
-                                    <div class="post-title ">
-                                        <h4 class="post-title"><a href="javascript:;">Cleaning Team Is Ready To Work</a></h4>
-                                    </div>
-                                    <div class="post-meta ">
-                                        <ul>
-                                            <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Aug</strong> <span> 2016</span> </li>
-                                            <li class="post-author"><i class="fa fa-user"></i>By <a href="javascript:;">demongo</a> </li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> <a href="javascript:;">0 comment</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="post-text">
-                                        <p>Lorem Ipsum by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a <a href="#" title="Read More" rel="bookmark" class=" site-button-link text-primary"> Read More</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Latest blog END -->
+
         <!-- Appointment -->
-        <div class="section-full content-inner appointment" style="background-image:url(<?= base_url('public/assets/user/images/background/apointment.jpg') ?>); background-repeat:no-repeat;">
+        <div class="section-full content-inner appointment" style="background-image:url(<?= base_url('public/assets/user/images/homepage3.jpg') ?>); background-repeat:no-repeat;">
             <div class="container">
                 <div class="section-content row">
                     <div class="col-lg-7 p-b30">

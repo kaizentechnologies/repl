@@ -7,11 +7,11 @@ class Admin extends BaseController
 {
     public function __construct()
     {
-    helper(['form', 'common', 'cookie']);
-    $this->adminModel = new AdminModel();
-    $this->session = \Config\Services::session();
-    $this->db = \Config\Database::connect();
-    $validation =  \Config\Services::validation();
+        helper(['form', 'common', 'cookie']);
+        $this->adminModel = new AdminModel();
+        $this->session = \Config\Services::session();
+        $this->db = \Config\Database::connect();
+        $validation =  \Config\Services::validation();
     }
 
     public function index()

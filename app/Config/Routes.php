@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 // $routes->get('/', 'Home::index');
 // $routes->get('/', 'User::index');
 $routes->get('/', 'User::homepage');
+$routes->get('admin', 'Admin::index');
 
 /*
  * --------------------------------------------------------------------
